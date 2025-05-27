@@ -8,5 +8,7 @@ namespace CompanyAPI.Core.Interfaces
     {
         Task<IEnumerable<DepartmentWithEmployeesDTO>> GetAllDepartmentsAsync();
         Task<DepartmentWithEmployeesDTO> GetDepartmentByIdWithEmployeesAsync(int id);
+
+        Task<(bool Success, string Message, DepartmentWithEmployeesDTO? Data)> UpdateDepartmentAsync(int id, DepartmentWithEmployeesDTO updated);
     }
 }

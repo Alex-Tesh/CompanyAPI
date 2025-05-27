@@ -21,7 +21,6 @@
     <ProjectReference Include="..\CompanyAPI.Core\CompanyAPI.Core.csproj" />
     <ProjectReference Include="..\CompanyAPI.Database\CompanyAPI.Database.csproj" />
     <ProjectReference Include="..\CompanyAPI.Infrastructure\CompanyAPI.Infrastructure.csproj" />
-    <ProjectReference Include="..\CompanyAPI\CompanyAPI.csproj" />
   </ItemGroup>
 
 </Project>
